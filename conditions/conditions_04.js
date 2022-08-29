@@ -7,7 +7,13 @@ when the number parameter it receives is even and "odd" otherwise.
 Tests
 Implements evenOrOdd() for even numbers
 Implements evenOrOdd() for odd numbers
-/**
- * @param {string} number
+/** @param {string} number
  */
-function evenOrOdd(number) {}
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+    return "Even";
+  } else {
+    return "odd";
+  }
+}
+console.log(evenOrOdd(2));

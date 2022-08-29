@@ -1,13 +1,21 @@
-"use strict";
+/* "use strict";
 /**
 Implement the function canVote such that it returns true whenever the age 18 or above
 and false in all other scenarios.
 
  * @param {number} age
  */
-function canVote(age) {}
 
 // Sample usage - do not modify
-console.log(canVote(25)); // true
-console.log(canVote(18)); // true
-console.log(canVote(10)); // false
+
+function canVote(age) {
+  /* let age = 19; */
+
+  if (age >= 18) {
+    console.log("Congratulation you are eligible to cast a vote");
+  } else {
+    console.log("Sorry, you are not eligible to cast a vote");
+  }
+}
+
+canVote(19);
