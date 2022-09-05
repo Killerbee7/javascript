@@ -9,7 +9,10 @@ it receives exists in the apps parameter, and false otherwise.
  * @param {string[]} apps
  * @param {string} app
  */
-function isAppUsed(apps, app) {}
+function isAppUsed(apps, app) {
+    return app.includes("Calculator")
+
+}
 
 // Sample usage - do not modify
 console.log(isAppUsed(["Twitter", "Calculator"], "Calculator")); // true

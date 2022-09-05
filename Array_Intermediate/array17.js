@@ -11,7 +11,16 @@ and the second string is made up of 1 character.
  */
 function getStringSizes(strings) {
 
+    const doubled = strings.map(function(string) {
+
+    return string.length;
+
+});
+
+return doubled
 }
+
+
 
 
 // Sample usage - do not modify
