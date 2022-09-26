@@ -6,9 +6,9 @@ and return its result. Also, visualize that the result of fetch is a Promise. Yo
 */
 
 const checkForNewNotifications = () => {
+  fetch("https://programmingjs-90a13-default-rtdb.europe-west1.firebasedatabase.app/notifications.json",{
+    method: "GET"})
 
-  // write here
-  fetch("https://programmingjs-90a13-default-rtdb.europe-west1.firebasedatabase.app/notifications.json")
   .then((response) =>response.json())
   .then((data)  =>{
     console.log(data);
