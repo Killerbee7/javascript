@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @param {number} age
+ * 
  */
 function canVote(age) {
   return age >= 18;
