@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Santosh",
+			"path": "../../../.."
+		},
+		{
+			"name": "Practice0310",
+			"path": "../../../../../../Downloads/Practice0310"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Santosh"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Database_Santosh/testsql"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bundler"
+	}
+}
