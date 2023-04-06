@@ -1,1 +1,1 @@
-Basic JavaScript by Santosh. Includes all notes, assignments and projects.
+Basic JavaScript by Santosh Kalwar.  Includes all notes, assignments and projects.
